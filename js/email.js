@@ -14,7 +14,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) { 
     const params = {
     surname: document.getElementById("surname").value,
     name: document.getElementById("name").value,
-    fater: document.getElementById("fater").value,
+    patronymic: document.getElementById("patronymic").value,
     tel: document.getElementById("tel").value,
     email: document.getElementById("email").value,
     text: document.getElementById("text").value,

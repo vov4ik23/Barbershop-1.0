@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="booking">
+        <h1 class="field"></h1>
+        <button>НА ГОЛОВНУ</button>
+        <div class="names">
+            <input class="booking_field booking_field-surname" type="text" id="surname" required>
+            <input class="booking_field booking_field-name" type="text" id="name" required>
+            <input class="booking_field booking_field-patronymic" type="text" id="patronymic" required>
+        </div>
+        <input class="booking__field booking__field-phone" type="tel" id="tel" required>
+        <input class="booking__field booking_field-email" type="email" id="email" required>
+        <input class="booking_field booking_field-info" type="text" id="text" required>
+        <h2>ВИБЕРІТЬ МОДЕЛЬ БОРОДИ</h2>
+        <div class="radios">
+            <input type="radio" name="choose" value="1" required>ЗСУ</input>
+            <input type="radio" name="choose" value="2" required>лісник</input>
+            <input type="radio" name="choose" value="3" required>філософ</input>
+            <input type="radio" name="choose" value="4" required>хужожник</input>
+            <input type="radio" name="choose" value="5" required>мудрець</input>
+        </div>
+        <h2>ДОДАТКОВІ ПОСЛУГИ</h2>
+        <div class="checkboxs">
+            <p><input type="checkbox" id="styleB">Пофарбувати бороду</p>
+            <p><input type="checkbox" id="styleB">Забрати сивину</p>
+            <p><input type="checkbox" id="styleB">Підрівняти скроні</p>
+            <p><input type="checkbox" id="styleB">Зачесати бороду</p>
+            <p><input type="checkbox" id="styleB">Накрутити вуса</p>
+            <p><input type="checkbox" id="styleB">Відполірувати лисину</p>
+        </div>
+        <button type="submit">ВІДПРАВИТИ ЗАЯВКУ</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
