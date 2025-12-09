@@ -1,5 +1,5 @@
 emailjs.init("YEWQNXjHrI21nh2Re"); // ключ
-document.getElementById("contactForm").addEventListener("submit", function(e) { // форма
+document.getElementById("booking").addEventListener("submit", function(e) { // форма
     e.preventDefault();
 
         const chooseRadio = document.querySelector('input[name="choose"]:checked'); // выбирать только выбраны
