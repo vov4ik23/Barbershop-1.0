@@ -896,9 +896,9 @@ input[type=radio], input[type=checkbox]{
   text-decoration: none;
   color: white;
 }
-<!-- .nav__item:nth-child(3) a{
-    border-bottom: 3px solid #826550; /* було #d38c5a */
-} -->
+/* .nav__item:nth-child(3) a{
+    border-bottom: 3px solid #826550; було #d38c5a
+} */
 .nav__login{
   width: 7%;
   display: flex;
@@ -1133,6 +1133,7 @@ input[type=radio], input[type=checkbox]{
     font-family: "PT Sans Narrow", sans-serif;
     font-style: normal;
 }
+
 
 
 
