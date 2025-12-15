@@ -16,13 +16,13 @@
   <nav class="nav">
     <ul class="nav__list">
       <li class="nav__item">
-        <a href="/Barbershop-1.0/index" class="nav__link">ГОЛОВНА</a>
+        <a href="" class="nav__link">ГОЛОВНА</a>
         </li>
       <li class="nav__item">
-        <a href="/Barbershop-1.0/photo" class="nav__link">НАШІ РОБОТИ</a>
+        <a href="" class="nav__link">НАШІ РОБОТИ</a>
         </li>
       <li class="nav__item">
-        <a href="/Barbershop-1.0/form" class="nav__link">ЗАПИСАТИСЯ</a>
+        <a href="" class="nav__link">ЗАПИСАТИСЯ</a>
         </li>
       <li class="nav__item">
         <a href="" class="nav__link">КОНТАКТИ</a>
@@ -32,14 +32,16 @@
         </li>
     </ul>
     <div class="nav__login">
-      <img src="" alt="" class="nav__icon">
+      <img src="img/icons/login_icon.svg" alt="" class="nav__icon">
       <a href="" class="nav__link">УВІЙТИ</a>
     </div>
   </nav>
   <header class="header">
-		<img src="" alt="" class="img_logo-name">
-		<img src="" alt="" class="img_logo-name">
-		<img src="" alt="" class="img_logo-name">
+	<div class="header_item">
+		<img src="img/icons/barbershop_word.svg" alt="" class="img_logo-name">
+		<img src="img/icons/barbershop_name.svg" alt="" class="img_logo-name">
+		<img src="img/icons/barbershop_mustach.svg" alt="" class="img_logo-name">
+	</div>
 	</header>
   <main>
 		<section class="section__message">
@@ -66,7 +68,7 @@
 		</section>
 		<section class="quality">
 			<div class="section_quality_block">
-				<img src="" alt="" class="img_icon">
+				<img src="img/icons/scissors_advantage.svg" alt="" class="img_icon">
 				<h3 class="block-h3">ШВИДКО</h3>
 				<p class="block-p">Ми робимо свою роботу швидко! Дві години пролетять непомітно і ви - щасливий володар стильної стрижки-хвилинки
 			</div>
@@ -74,7 +76,7 @@
 
 			</div>
 			<div class="section_quality_block">
-				<img src="" alt="" class="img_icon">
+				<img src="img/icons/chair_advantage.svg" alt="" class="img_icon">
 				<h3 class="block-h3">КРУТО</h3>
 				<p class="block-p">Забудьте, як ви стриглись раніше. Ми зробимо з вас зірку футболу або кіно. Принаймні зовні.
 			</div>
@@ -82,27 +84,34 @@
 
 			</div>
 			<div class="section_quality_block">
-				<img src="" alt="" class="img_icon">
+				<img src="img/icons/perfume_advantages.svg" alt="" class="img_icon">
 				<h3 class="block-h3">ДОРОГО</h3>
 				<p class="block-p">Наші майстри – професіонали своєї справи не можуть коштувати дешево. До того ж, хіба ціна не дає певного статусу?</p>
 			</div>
 		</section>
+
+
+
+		<canvas id="maincanvas" width="1400" height="150"></canvas>
+
+
+		
 	</main>
     <section class="section_news">
 		<h3 class="section_news-h3">НОВИНИ ТА АКЦІЇ</h3>
 		<button class="section_news-button">ПОКАЗАТИ ВСЕ</button>
 		<div class="news-all">
 			<div class="news">
-				<img src="" alt="" class="img_news">
-				<p class="p-news">Нам нарешті завезли<br> комбучу! Тепер ви можете<br> випити стаканчик під час<br> стрижки.</p>
+				<img src="img/icons/date_1.svg" alt="" class="img_news">
+				<p class="p-news">Нам нарешті завезли комбучу! Тепер ви можете випити стаканчик під час стрижки.</p>
 			</div>
 			<div class="news">
-				<img src="" alt="" class="img_news">
-				<p class="p-news">У нашій команді поповнення,<br> Борис «Бритва» Стригунець,<br> поповнив наші стрункі лави.<br> Поспішайте записатися!</p>
+				<img src="img/icons/date_2.svg" alt="" class="img_news">
+				<p class="p-news">У нашій команді поповнення, Борис «Бритва» Стригунець, поповнив наші стрункі лави.<br> Поспішайте записатися!</p>
 			</div>
 			<div class="news">
-				<img src="" alt="" class="img_news">
-				<p class="p-news">Все дорожчає, а наші зачіски<br> немає! Як так? Приходьте,<br> підстрижетесь і дізнаєтеся, в<br> чому тут каверза!</p>
+				<img src="img/icons/date_3.svg" alt="" class="img_news">
+				<p class="p-news">Все дорожчає, а наші зачіски немає! Як так? Приходьте, підстрижетесь і дізнаєтеся, в<br> чому тут каверза!</p>
 			</div>
 		</div>
 	</section>
@@ -112,9 +121,14 @@
 		<div class="slaider_review">
 			<button class="button_review-back"></button>
 			<div class="block-info-review">
-				<img src="" alt="" class="img_person-review">
-				<h2 class="h2_person-review">Тревіс Баркер</h2>
-				<p class="p_person-review">Дякую за лисину! Був проїздом у Франківську, заскочив<br> поголитися, щоб було видно нове татуювання!</p>
+				
+				<div class="info-review_img">
+					<img src="img/photos/adult.svg" alt="" class="img_person-review">
+				</div>
+				<div class="info-review_content">
+					<h2 class="h2_person-review">Тревіс Баркер</h2>
+				<p class="p_person-review">Дякую за лисину! Був проїздом у Франківську, заскочив поголитися, щоб було видно нове татуювання!</p>
+				</div>
 			</div>
 			<button class="button_review-next"></button>
 			<div class="romb-click">
@@ -125,10 +139,10 @@
 		</div>
 	</section>		
   <footer class="footer">
+	<canvas id="footercanvas" width="1400" height="100"></canvas>	
     <div class="footer_item">
         <h3 class="h3_title">БАРБЕРШОП БОРОДИНСЬКИЙ</h3>
-        <p class="footer_info">м.Івано-Франківськ, вул. Бельведерська 19/8
-Тел.: +38 (097) 045-50-67</p>
+        <p class="footer_info">м.Івано-Франківськ, вул. Бельведерська 19/8 Тел.: +38 (097) 045-50-67</p>
     </div>
     <div class="footer_item">
         <p class="footer_media">
@@ -136,13 +150,13 @@
         </p>
             <div class="footer_icons">
 				<div class="block_img">
-					<img src="" alt="" class="footer_img">
+					<img src="img/icons/vk_icon.svg" alt="" class="footer_img">
 				</div>
                 <div class="block_img">
-					<img src="" alt="" class="footer_img">
+					<img src="img/icons/facebook_icon.svg" alt="" class="footer_img">
 				</div>
 				<div class="block_img">
-					<img src="" alt="" class="footer_img">
+					<img src="img/icons/instagram_icon.svg" alt="" class="footer_img">
 				</div>
             </div>
     </div>
@@ -151,9 +165,6 @@
         <h3 class="footer_border">ШКМ</h3>
     </div>
   </footer>
+  <script src="js/index.js"></script>
 </body>
 </html>
-
-
-
-
