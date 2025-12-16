@@ -88,3 +88,7 @@ li {
     visibility: visible;
     opacity: .9;
 }
+
+.burgerMenu .burgerNav .overlay .burger-list{
+    display: none;
+}
