@@ -1,20 +1,17 @@
 .burgerMenu {
-    width: 50px;
+    width: 80px;
     height: 50px;
     position: relative;
-    background: #10568f;
+    background: #6A4D38;
     cursor: pointer;
-    border-radius: 5px;
     z-index: 999;
 }
 
-.burgerMenu span {
-    display: inline-block;
+.burgerMenu span {  
     position: absolute;
-    width: 45%;
-    left: 14px;
+    width: 55%;
+    left: 17px;
     height: 3px;
-    border-radius: 2px;
     background: #fff;
     transition: all .4s;
 }
@@ -33,9 +30,9 @@
 
 .burgerMenu.active span:nth-of-type(1) {
     top: 18px;
-    left: 14px;
+    left: 17px;
     transform: translateY(6px) rotate(-45deg);
-    width: 40%;
+    width: 50%;
 }
 
 .burgerMenu.active span:nth-of-type(2) {
@@ -44,9 +41,9 @@
 
 .burgerMenu.active span:nth-of-type(3) {
     top: 30px;
-    left: 14px;
+    left: 17px;
     transform: translateY(-6px) rotate(45deg);
-    width: 40%;
+    width: 50%;
 }
 
 li {
@@ -80,7 +77,8 @@ li {
     visibility: hidden;
     transition: opacity .35s, visibility .35s, height .35s;
     overflow: hidden;
-    background: rgb(105, 105, 105);
+    background: rgb(0, 0, 0);
+    z-index: 998;
 }
 
 .overlay--on {
@@ -89,6 +87,32 @@ li {
     opacity: .9;
 }
 
-.burgerMenu .burgerNav .overlay .burger-list{
+.burgerMenu{
     display: none;
+}
+.burgerNav{
+    background: #826550;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navText{
+    font-family: PT Sans Narrow;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+@media (max-width:480px){
+.burgerMenu{
+    display: block;
+}
+.nav{
+    display: none;
+}
 }

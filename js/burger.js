@@ -1,11 +1,9 @@
-const btn = document.querySelector(".openbtn");
+const btn = document.querySelector('.burgerMenu');
+const overlay = document.querySelector('.overlay');
 
-if (btn) {
-  btn.addEventListener("click", function (event) {
-    event.currentTarget.classList.toggle("active");
+if (btn && overlay) {
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('active');
+    overlay.classList.toggle('overlay--on');
   });
-}   
-
-document.querySelector('.BurgerMenu').addEventListener('click', function() {
-  document.querySelector('.Overlay').classList.toggle('Overlay--on');
-});
+}
