@@ -1,0 +1,344 @@
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    background: #F8F5F2;
+}
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: black;
+  width: 100%;
+  height: 10vh;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/photos/back-desktop.svg);
+    background-size: cover;
+}
+.nav__list{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  justify-content: space-between;
+  list-style: none;
+  border: none;
+}
+.h2_person-review{
+    font-size: 24px;
+    font-weight: 700;
+    width: 50%;
+    height: 30%;
+}
+.nav__item{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.nav__link{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.nav__item:nth-child(3) a{
+    border-bottom: 3px solid #d38c5a;
+}
+.nav__login{
+  width: 7%;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.nav__login a{
+    width: 100%;
+    height: 100%;
+}
+.nav__icon{
+    width: 70%;
+    height: 100%;
+}
+.footer{
+    height: 20vh;
+    background: #292929;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: white;
+}
+.footer_item{
+    width: 25%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_item p{
+    line-height: 27px;
+}
+.footer_item:nth-child(2){
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer_item:nth-child(3){
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer_icons{
+    display: flex;
+    height: 40%;
+    width: 48%;
+}
+.footer_img{
+    border: 1px solid #4a4a4a;
+    width: 100%;
+    height: 100%;
+}
+.footer_border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53%;
+    height: 40%;
+    border: 1px solid #4a4a4a;
+}
+.photo_button_and_h2{
+    width: 100%;
+    height: 20vh;
+    left: 7vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-content: space-evenly;
+    align-items: center;
+    background: #F8F5F2;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.works{
+    font-size: 72px;
+    width: 50%;
+    height: 30%;
+    font-weight: 700;
+    font-size: 40px;
+}
+.home{
+    width: 13%;
+    height: 40%;
+    font-size: 18px;
+    line-height: 27px;
+    background: #F8F5F2;
+    border: 1px solid grey;
+}
+.block-photo{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+}
+.photo-big{
+    width: 40%;
+    height: 100%;
+}
+.img_head-1{
+    height: 100%;
+    width: 100%;
+}
+.name1{
+    width: 50%;
+    height: 20%;
+    background: #F8F5F2;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
+.name{
+    font-size: x-large;
+    background: #F8F5F2;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.works_flag{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.big_photo_text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     background: #F8F5F2;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.name1_and_description{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+}
+.h3-options{
+    width: 80%;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.option{
+    width: 30%;
+}
+.option_small{
+    width: 40%;
+}
+.photo_small{
+    width: 100%;
+    height: 60%;
+}
+.img_head{
+    width: 100%;
+    height: 100%;
+}
+.photo_small-block{
+    width: 80%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.photo{
+    width: 30%;
+    height: 87%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.name_and_description{
+    width: 85%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description{
+    background: #F8F5F2;
+    height: 50%;
+    display: flex;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.description_big{
+    width: 50%;
+}
+.description_small{
+    background: #F8F5F2;
+    height: 50%;
+    width: 70%;
+    display: flex;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.price-list{
+    width: 100%;
+    background: #353535;
+    color: #FFFFFF;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.table_clock{
+    width: 50%;
+    height: 50%;
+}
+.table-price{
+    width: 100%;
+    height: 100%;
+}
+.h2-price_div{
+    width: 100%;
+    height: 20%;
+    color: #FFFFFF;
+    background: #353535;
+}
+.h2-price{
+     font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 72px;
+}
+.number{
+    color: #4A4A4A;
+    border: 1px solid #4A4A4A;
+    text-align: center;
+    width: 7%;
+    height: 4%;
+     font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.variant{
+    border: 1px solid #4A4A4A;
+    width: 30%;
+    height: 4%;
+     font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+}
+.info{
+     border: 1px solid #4A4A4A;
+    width: 20%;
+    text-align: center;
+    height: 4%;
+     font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.price{
+     border: 1px solid #4A4A4A;
+    width: 10%;
+    text-align: center;
+    height: 4%;
+     font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
