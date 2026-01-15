@@ -10,6 +10,21 @@
   font-style: normal;
   font-size: 1.125rem;
 }
+.reviews{
+    width: 80%;
+    overflow: hidden;
+}
+
+.review{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review.active{
+    display: flex;
+}
+
 .nav__list{
   display: flex;
   width: 60%;
@@ -35,7 +50,7 @@
   text-decoration: none;
   color: white;
 }
-.nav__item:hover{
+.nav__item:nth-child(1){
     border-bottom: 3px solid #d38c5a;
 }
 .nav__login{
@@ -150,6 +165,27 @@
     font-style: normal;
     border: none;
     color: white;
+    position: relative;
+}
+.slider__prev,
+.slider__next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background: transparent;
+    border: 1px solid #E5DDD5;
+    color: white;
+    cursor: pointer;
+}
+.slider__prev{
+    left: 2%;
+}
+
+.slider__next{
+    right: 2%;
 }
 .img_icon{
     width: 8vw;
@@ -177,6 +213,10 @@
     font-size: 1.875rem;
     font-weight: 700;
 }
+    .slider__prev,
+    .slider__next {
+        display: none;
+    }
 .block-p{
     font-size: 1.125rem;
     width: 70%;
@@ -279,12 +319,45 @@ main{
     background: #F8F5F2;
     border: 1px solid grey;
 }
+
+.button_review-back,
+.button_review-next {
+  display: block;
+  position: absolute;
+  top: 40%;
+  width: 40px;
+  height: 181px;
+  z-index: 10;
+  font-size: bold;
+    position: absolute;
+    top: 0;
+
+    background: #F8F5F2;
+    border: 1px solid #E5DDD5;
+    font-size: 30px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button_review-back {
+  left: 0;
+}
+
+.button_review-next {
+  right: 0;
+}
 .slaider_review{
     width: 80%;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     height: 55%;
+    position: relative;
+    padding: 0 60px;
 }
 .img_person-review{
     width: 100%;
@@ -591,8 +664,16 @@ main{
         width: 4vh;
         height: 4vh;
     }
+    .slider__prev,
+    .slider__next {
+        display: none;
+    }
 }
 @media screen and (max-width:425px){
+    .slider__prev,
+    .slider__next {
+        display: block;
+    }
     body{
         display: flex;
         flex-direction: column;
@@ -762,15 +843,16 @@ main{
         text-indent: 0%;
     }
     .slaider_review button{
-        display: none;
+        display: block;
     }
-    .slaider_review{
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 60%;
-    }
+    .slaider_review {
+      width: 100%;
+      height: 60%;
+      flex-direction: row;  
+      align-items: center;
+      justify-content: center;  
+      position: relative;
+}
     .slaider_review h2{
         width: 50%;
         height: 20%;
@@ -821,6 +903,5 @@ main{
         width: 100%;
         height: 100%;
     }
+    
 }
-
-
