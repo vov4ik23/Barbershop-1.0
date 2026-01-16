@@ -83,7 +83,7 @@ main{
   text-decoration: none;
   color: white;
 }
-.nav__item:nth-child(3) a{
+.nav__item:nth-child(2) a{
     border-bottom: 3px solid #d38c5a;
 }
 .nav__login{
@@ -891,3 +891,4 @@ main{
         height: 100%;
     }
 }
+
