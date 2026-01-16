@@ -361,7 +361,7 @@ main{
 }
 .img_person-review{
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: cover;
 }
 .info-review_img{
@@ -905,3 +905,4 @@ main{
     }
     
 }
+
