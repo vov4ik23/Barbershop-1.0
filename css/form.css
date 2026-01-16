@@ -86,7 +86,7 @@ input[type=radio], input[type=checkbox]{
     justify-content: center;
 }
 .heder-img{
-    width: 30%;
+    width: 25%;
     height: 20%;
     display: flex;
     align-items: center;
@@ -95,8 +95,14 @@ input[type=radio], input[type=checkbox]{
     position: absolute;
 }
 .img_logo-name{
-    width: 80%;
+    width: 100%;
     height: 10vh;
+}
+.img_logo-name:nth-child(2){
+    width: 100%;
+}
+.img_logo-name:nth-child(1){
+    width: 50%;
 }
 #headercanvas{
     width: 100%;
@@ -389,8 +395,16 @@ input[type=radio], input[type=checkbox]{
     .nav__icon{
         width: 40%;
     }
+    .header{
+        height: 25vh;
+    }
     .heder-img{
-        width: 57%;
+        width: 40%;
+        align-self: start;
+        justify-content: center;
+    }
+    .img_logo-name{
+        height: 40%;
     }
     .img_logo-name:nth-child(3){
         display: none;
