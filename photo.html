@@ -2,22 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/photo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Splash&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav class="nav">
+<nav class="nav">
     <ul class="nav__list">
       <li class="nav__item">
-        <a href="/Barbershop-1.0/index" class="nav__link">ГОЛОВНА</a>
+        <a href="/Barbershop-1.0/index.html" class="nav__link">ГОЛОВНА</a>
         </li>
       <li class="nav__item">
-        <a href="/Barbershop-1.0/photo" class="nav__link">НАШІ РОБОТИ</a>
+        <a href="/Barbershop-1.0/photo.html" class="nav__link">НАШІ РОБОТИ</a>
         </li>
       <li class="nav__item">
-        <a href="/Barbershop-1.0/form" class="nav__link">ЗАПИСАТИСЯ</a>
+        <a href="/Barbershop-1.0/form.html" class="nav__link">ЗАПИСАТИСЯ</a>
         </li>
       <li class="nav__item">
         <a href="" class="nav__link">КОНТАКТИ</a>
@@ -27,143 +30,192 @@
         </li>
     </ul>
     <div class="nav__login">
-      <img src="" alt="" class="nav__icon">
+      <img src="img/icons/login icon.svg" alt="" class="nav__icon">
       <a href="" class="nav__link">УВІЙТИ</a>
     </div>
+
   </nav>
-   <header class="header">
-		<img src="" alt="" class="img_logo-name">
-		<img src="" alt="" class="img_logo-name">
-		<img src="" alt="" class="img_logo-name">
+  <header class="header">
+	<div class="heder-img">
+		<img src="img/icons/Vector.png" alt="" class="img_logo-nam_1">
+		<img src="img/icons/Vector (1).png" alt="" class="img_logo-name_2">
+		<img src="img/icons/Vector (2).png" alt="" class="img_logo-name_3"></div>
+		
+		<canvas id="canvas_header" width="1400" height="580">
+
+		</canvas>
 	</header>
 	<main>
-		<h2 class="works">НАШІ РОБОТИ</h2>
-		<button class="home">НА ГОЛОВНУ</button>
+		<div class="photo_button_and_h2">
+			<h2 class="works">НАШІ РОБОТИ</h2>
+			<button class="home">НА ГОЛОВНУ</button>
+		</div>
+		
 		<div class="block-photo">
-			<div class="photo-big">
-				<img class="img_head-1" src="">
-				<div class="works_flag"></div>
-				<h2 class="name1">Олександр Головенський</h2>
-				<p class="description">Де я тільки не стригся, але те, що робите ви - не вміє ніхто інший! Ще раз дякую і до зустрічі!</p>
+			<div class="works_flag">
+					<canvas id="canvas_works" width="50" height="100"></canvas>
+					<p class="best_work_month">РОБОТА МІСЯЦЯ</p>
+					<canvas id="canvas_works_down" width="50" height="100"></canvas>
+				</div>
+				<img class="img_head-1" src="img/photos/photo-1-desktop.jpg">
+			<div class="big_photo_text">
+				
+				<div class="name1_and_description">
+					<h2 class="name1">Олександр Головенський</h2>
+					<p class="description_big">Де я тільки не стригся, але те, що робите ви - не вміє ніхто інший! Ще раз дякую і до зустрічі!</p>
+				</div>
 				<div class="options">
 					<div class="option">
-					<img class="logo-options" src="">
+						<img class="logo-options" src="img/icons/scissors-icon.svg">
 					<h3 class="h3-options">СТРИЖКА</h3>
 					</div>
 					<div class="option">
-					<img class="logo-options" src="">
-					<h3 class="h3-options">ГОЛІННЯ</h3>
+						<img class="logo-options" src="img/icons/beard-icon.svg">
+						<h3 class="h3-options">ГОЛІННЯ</h3>
 					</div>
 					<div class="option">
-					<img class="logo-options" src="">
-					<h3 class="h3-options">ВУСА</h3>
+						<img class="logo-options" src="img/icons/mustache-icon.svg">
+						<h3 class="h3-options">ВУСА</h3>
 					</div>
 				</div>
 			</div>
 		</div>
-	</main>
-<div class="photo_small-block">
+	<div class="photo_small-block">
 		<div class="photo">
-			<img src="" alt="" class="img_head">
-			<div class="works_content">
-			<h2 class="name">Саша Красень</h2>
-			<p class="description">Попросив омолодити - омолодили!<br> Хто тепер скаже, що мені 45? </p>
-			<div class="option">
-				<img src="" alt="" class="logo-options">
-				<h3 class="h3-options">СТРИЖКА</h3>
+
+			<div class="photo_small">
+				<img src="img/photos/photo-2-desktop.png" alt="" class="img_head">
 			</div>
+
+			<div class="name_and_description">
+				<h2 class="name">Саша Красень</h2>
+				<p class="description">Попросив омолодити - омолодили! Хто тепер скаже, що мені 45? </p>
 			</div>
+
+			<div class="options">
+				<div class="option_small">
+					<img src="img/icons/scissors-icon.svg" alt="" class="logo-options">
+					<h3 class="h3-options">СТРИЖКА</h3>
+				</div>
+			</div>
+
 		</div>
 		<div class="photo">
-			<img src="" alt="" class="img_head">
-			<div class="works_content">
-			<h2 class="name">Володимир Іванович</h2>
-			<p class="description">До зимового сезону — готовий!</p>
-			<div class="option">
-				<img src="" alt="" class="logo-options">
-				<h3 class="h3-options">БОРОДА</h3>
+			<div class="photo_small">
+				<img src="img/photos/photo-3-desktop.png" alt="" class="img_head">
 			</div>
-			<div class="option">
-				<img src="" alt="" class="logo-options">
-				<h3 class="h3-options">ВУСА</h3>
+
+			<div class="name_and_description">
+				<h2 class="name">Володимир Іванович</h2>
+				<p class="description">До зимового сезону — готовий!</p>
 			</div>
+
+			<div class="options">
+				<div class="option_small">
+					<img src="img/icons/beard-icon.svg" alt="" class="logo-options">
+					<h3 class="h3-options">БОРОДА</h3>
+				</div>
+				<div class="option_small">
+					<img src="img/icons/mustache-icon.svg" alt="" class="logo-options">
+					<h3 class="h3-options">ВУСА</h3>
+				</div>
 			</div>
+
 		</div>
 		<div class="photo">
-			<img src="" alt="" class="img_head">
-			<h2 class="name">Андрій Молодик</h2>
-			<p class="description">Як тільки заростаю і волосся починає заважати бачити — бігом у Бородинський!</p>
-			<div class="option">
-				<img src="" alt="" class="logo-options">
-				<h3 class="h3-options">СТРИЖКА</h3>
+			<div class="photo_small">
+				<img src="img/photos/photo-4-desktop.jpg" alt="" class="img_head">
+			</div>
+			<div class="name_and_description">
+				<h2 class="name">Андрій Молодик</h2>
+				<p class="description">Як тільки заростаю і волосся починає заважати бачити — бігом у Бородинський!</p>
+			</div>
+			<div class="options">
+				<div class="option_small">
+					<img src="img/icons/scissors-icon.svg" alt="" class="logo-options">
+					<h3 class="h3-options">СТРИЖКА</h3>
+				</div>
 			</div>
 		</div>
 	</div>
 		<div class="price-list">
-			<h2 class="h2-price"></h2>
+			<canvas id="canvas_price" width="1400" height="500"></canvas>
+			<div class="h2-price_div">
+				<h2 class="h2-price">ПРЕЙСКУРАНТ</h2>
+			</div>
+		</div>
+		<div class="table_and_clock">
 			<section class="table_clock">
 				<table class="table-price">
-					<tr>
-						<td>1</td>
-						<td>Класична стрижка</td>
-						<td>з миттям голови</td>
-						<td>500 грн.</td>
+					<tr class="tr">
+						<td	class="number"><p class="p_number">1</p></td>
+						<td class="variant"><p class="p_variant">Класична стрижка</p></td>
+						<td class="info"><p class="p_info">з миттям голови</p></td>
+						<td class="price"><p class="p_price">500 грн.</p></td>
 					</tr>
-					<tr>
-						<td>2</td>
-						<td>Сучасний варіант</td>
-						<td>з миттям голови</td>
-						<td>500 грн.</td>
+					<tr class="tr">
+						<td class="number"><p class="p_number">2</p></td>
+						<td class="variant"><p class="p_variant">Сучасний варіант</p></td>
+						<td class="info"><p class="p_info">з миттям голови</p></td>
+						<td class="price"><p class="p_price">500 грн.</p></td>
 					</tr>
-					<tr>
-						<td>3</td>
-						<td>Індивідуальний підхід</td>
-						<td>з миттям голови</td>
-						<td>1 000 грн.</td>
+					<tr class="tr">
+						<td class="number"><p class="p_number">3</p></td>
+						<td class="variant"><p class="p_variant">Індивідуальний підхід</p></td>
+						<td class="info"><p class="p_info">з миттям голови</p></td>
+						<td class="price"><p class="p_price">1 000 грн.</p></td>
 					</tr>
-					<tr>
-						<td>4</td>
-						<td>Гоління бороди</td>
-						<td>без миття</td>
-						<td>200 грн.</td>
+					<tr class="tr">
+						<td class="number"><p class="p_number">4</p></td>
+						<td class="variant"><p class="p_variant">Гоління бороди</p></td>
+						<td class="info"><p class="p_info">без миття</p></td>
+						<td class="price"><p class="p_price">200 грн.</p></td>
 					</tr>
-					<tr>
-						<td>5</td>
-						<td>Гоління голови</td>
-						<td>з миттям голови</td>
-						<td>500 грн.</td>
+					<tr class="tr">
+						<td class="number"><p class="p_number">5</p></td>
+						<td class="variant"><p class="p_variant">Гоління голови</p></td>
+						<td class="info"><p class="p_info">з миттям голови</p></td>
+						<td class="price"><p class="p_price">500 грн.</p></td>
 					</tr>
 				</table>
 			</section>
+			<div class="clock_div">
+				<div id="clock">
+						<div id="minuteHand" class="hand"></div>
+						<div id="hourHand" class="hand"></div>
+				</div>
+				<p class="clock_p">з 10:00 до 14:00 знижка 20%</p>
+			</div>
 		</div>
-		<footer class="footer">
-		<canvas id="footercanvas" width="1400" height="100"></canvas>	
-	    <div class="footer_item">
-	        <h3 class="h3_title">БАРБЕРШОП БОРОДИНСЬКИЙ</h3>
-	        <p class="footer_info">м.Івано-Франківськ, вул. Бельведерська 19/8 Тел.: +38 (097) 045-50-67</p>
-	    </div>
-    <div class="footer_item">
-        <p class="footer_media">
-            Давайте дружити!
-        </p>
-            <div class="footer_icons">
+	</main>
+	<footer class="footer">
+		<canvas id="canvas_footer" width="1400" height="500"></canvas>
+		<div class="footer_item">
+			<h3 class="h3_title">БАРБЕРШОП БОРОДИНСЬКИЙ</h3>
+			<p class="footer_info">м.Івано-Франківськ, вул. Бельведерська 19/8
+			Тел.: +38 (097) 045-50-67</p>
+		</div>
+		<div class="footer_item">
+			<p class="footer_media">
+			Давайте дружити!
+			</p>
+			<div class="footer_icons">
 				<div class="block_img">
-					<img src="" alt="" class="footer_img">
-				</div>
-                <div class="block_img">
-					<img src="" alt="" class="footer_img">
+					<img src="img/icons/vk icon.svg" alt="" class="footer_img">
 				</div>
 				<div class="block_img">
-					<img src="" alt="" class="footer_img">
+					<img src="img/icons/fb icon.svg" alt="" class="footer_img">
 				</div>
-            </div>
-    </div>
-    <div class="footer_item">
-        <p class="footer_creator">ЗВЕРСТАНО:</p>
-        <h3 class="footer_border">ШКМ</h3>
-    </div>
+				<div class="block_img">
+					<img src="img/icons/instagram icon.svg" alt="" class="footer_img">
+				</div>
+			</div>
+		</div>
+		<div class="footer_item">
+			<p class="footer_creator">ЗВЕРСТАНО:</p>
+			<h3 class="footer_border">ШКМ</h3>
+		</div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
-
-
