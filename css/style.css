@@ -4,9 +4,6 @@ p, h1, h2, h3{
 	font-weight: 400;
 	font-style: normal;
 }
-burgerNav{
-	display: none;	
-}
 .nav{
   display: flex;
   justify-content: space-evenly;
@@ -911,4 +908,5 @@ burgerNav{
     }
     
 }
+
 
