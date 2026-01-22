@@ -30,6 +30,7 @@ p, h1, h2, h3{
     justify-content: center;
     background-size: cover;
     background-image: url(../img/photos/back-desktop.svg);
+	padding-top: 50px;
 }
 .heder-img{
     width: 50%;
@@ -896,5 +897,6 @@ p, h1, h2, h3{
         height: 100%;
     }
 }
+
 
 
