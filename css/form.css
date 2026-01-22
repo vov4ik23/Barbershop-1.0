@@ -84,6 +84,7 @@ input[type=radio], input[type=checkbox]{
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 .heder-img{
     width: 25%;
@@ -622,3 +623,4 @@ input[type=radio], input[type=checkbox]{
         display: none;
     }
 }
+
