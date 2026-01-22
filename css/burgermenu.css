@@ -6,6 +6,7 @@
     cursor: pointer;
     z-index: 999;
     display: none;
+    position: fixed;
 }
 
 .burgerMenu span {  
@@ -51,10 +52,6 @@ li {
     display: inline;
     font-size: 2rem;
 }
-
-.burgerMenu.active{
-    position: fixed;
-}
 .burger-list {
     position: relative;
     height: 70%;
@@ -98,6 +95,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 .navText{
     font-family: PT Sans Narrow;
