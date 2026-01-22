@@ -105,12 +105,18 @@ li {
     color: white;
     width: 100%;
 }
-.burgerMenu .burgerNav{
+.burgerMenu{
+    display: none;
+}
+.burgerNav {
     display: none;
 }
 @media (max-width:480px){
-.burgerMenu burgerNav{
+.burgerMenu{
     display: block;
+}
+.burgerNav {
+    display: flex;
 }
 .nav{
     display: none;
