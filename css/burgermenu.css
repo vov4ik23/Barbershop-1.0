@@ -52,6 +52,9 @@ li {
     font-size: 2rem;
 }
 
+.burgerMenu.active{
+    position: fixed;
+}
 .burger-list {
     position: relative;
     height: 70%;
