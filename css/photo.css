@@ -42,6 +42,7 @@ p, h1, h2, h3{
     align-self: center;
     justify-content: space-evenly;
     flex-direction: column;
+	margin: 8%;
 }
 /* .img_logo-name{
     width: 50%;
@@ -897,6 +898,7 @@ p, h1, h2, h3{
         height: 100%;
     }
 }
+
 
 
 
