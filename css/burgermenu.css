@@ -11,7 +11,7 @@
 
 .burgerMenu span {  
     position: absolute;
-    width: 20%;
+    width: 55%;
     left: 17px;
     height: 3px;
     background: #fff;
@@ -72,7 +72,7 @@ li {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 55%;
     height: 0%;
     opacity: 0;
     visibility: hidden;
