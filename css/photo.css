@@ -43,7 +43,7 @@ p, h1, h2, h3{
     justify-content: space-evenly;
     flex-direction: column;
 }
-/* .img_logo-name{
+.img_logo-name{
     width: 50%;
     height: 30%;
 }
@@ -52,7 +52,7 @@ p, h1, h2, h3{
 }
 .img_logo-name:nth-child(3){
     width: 20%;
-} */
+}
 #canvas_header{
     width: 100%;
     height: 50%;
@@ -897,6 +897,7 @@ p, h1, h2, h3{
         height: 100%;
     }
 }
+
 
 
 
