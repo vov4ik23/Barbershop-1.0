@@ -86,6 +86,7 @@ li {
     height: 100%;
     visibility: visible;
     opacity: .9;
+    width: 100%;
 }
 .burgerNav{
     background: #826550;
