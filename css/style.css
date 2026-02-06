@@ -285,7 +285,6 @@ p, h1, h2, h3{
     font-weight: 700;
     line-height: 27px;
     background: #F8F5F2;
-    border: 1px solid grey;
 }
 .img_news{
     width: 20%;
@@ -328,7 +327,6 @@ p, h1, h2, h3{
     font-size: 1.125rem;
     font-weight: 700;
     background: #F8F5F2;
-    border: 1px solid grey;
 }
 .button_review-back,
 .button_review-next {
@@ -908,6 +906,7 @@ p, h1, h2, h3{
     }
     
 }
+
 
 
 
