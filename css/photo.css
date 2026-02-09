@@ -1,0 +1,909 @@
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    background: #F8F5F2;
+}
+p, h1, h2, h3{
+    font-family: "PT Sans Narrow", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  background: black;
+  width: 100%;
+  height: 10vh;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+}
+.header{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(../img/photos/back-desktop.svg);
+	padding-top: 50px;
+}
+.heder-img{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 15%;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.img_logo-name{
+    width: 50%;
+    height: 30%;
+}
+.img_logo-name:nth-child(1){
+    width: 30%;
+}
+.img_logo-name:nth-child(3){
+    width: 20%;
+}
+#canvas_header{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+.nav__list{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  justify-content: space-between;
+  list-style: none;
+  border: none;
+}
+.h2_person-review{
+    font-size: 24px;
+    font-weight: 700;
+    width: 50%;
+    height: 30%;
+}
+.nav__item{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.nav__link{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.nav__item:nth-child(2) a{
+    border-bottom: 3px solid #d38c5a;
+}
+.nav__login{
+  width: 7%;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.nav__login a{
+    width: 100%;
+    height: 100%;
+}
+.nav__icon{
+    width: 70%;
+    height: 100%;
+}
+.footer{
+    height: 20vh;
+    background: #292929;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+#canvas_footer{
+    width: 100%;
+    height: 7vh;
+    display: none;
+    background: #292929;
+}
+.footer_item{
+    width: 25%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block_img{
+    width: 33%;  
+    display: flex;
+    border: 1px solid #4A4A4A;
+    justify-content: center;
+    align-items: center;
+}
+.footer_item p{
+    line-height: 27px;
+}
+.footer_item:nth-child(2){
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer_item:nth-child(3){
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer_icons{
+    display: flex;
+    height: 40%;
+    width: 48%;
+}
+.footer_img{
+    width: 50%;
+    height: 50%;
+}
+.footer_border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53%;
+    height: 40%;
+    border: 1px solid #4a4a4a;
+}
+
+.photo_button_and_h2{
+    width: 100%;
+    height: 20vh;
+    left: 7vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-content: space-evenly;
+    align-items: center;
+    background: #F8F5F2;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.works{
+    font-size: 72px;
+    width: 50%;
+    height: 30%;
+    font-weight: 700;
+    font-size: 40px;
+}
+.home{
+    width: 13%;
+    height: 40%;
+    font-size: 18px;
+    line-height: 27px;
+    background: #F8F5F2;
+    border: 1px solid grey;
+}
+.block-photo{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+}
+
+.img_head-1{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    object-position: right;
+}
+.name1{
+    height: 20%;
+    background: #F8F5F2;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
+.name{
+    font-size: x-large;
+    background: #F8F5F2;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.works_flag{
+    width: 15%;
+    top: 73%;
+    left: 75%;
+    text-align: center;
+    height: 7vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    background: #826550;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#canvas_works{
+    width: 5%;
+    height: 100%;
+}
+#canvas_works_down{
+    width: 5%;
+    height: 100%;
+    display: none;
+}
+.best_work_month{
+    width: 95%;
+    font-size: 1.25rem;
+}
+.big_photo_text{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #F8F5F2;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.name1_and_description{
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+}
+.nav__icon{
+    height: 3vh;
+    align-self: center;
+}
+.h3-options{
+    width: 70%;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.option{
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.option_small{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.logo-options{
+    height: 3vh;
+    width: 4vw;
+}
+.photo_small{
+    width: 100%;
+    height: 60%;
+}
+.img_head{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.photo_small-block{
+    width: 80%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.photo{
+    width: 30%;
+    height: 87%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.name_and_description{
+    width: 85%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description{
+    background: #F8F5F2;
+    height: 50%;
+    display: flex;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 27px;
+    font-style: normal;
+}
+.description_big{
+    line-height: 27px;
+    height: 80%;
+}
+.description_small{
+    background: #F8F5F2;
+    height: 50%;
+    width: 70%;
+    display: flex;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.price-list{
+    width: 100%;
+    background: #353535;
+    color: #FFFFFF;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#canvas_price{
+    display: none;
+    width: 100%;
+    height: 7vh;
+    background: #353535;
+}
+.table_and_clock{
+    width: 100%;
+    background: #353535;
+    color: #FFFFFF;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.table_clock{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.table-price{
+    width: 100%;
+    height: 100%;
+}
+.h2-price_div{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #353535;
+}
+.h2-price{
+     font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 75%;
+    font-size: 40px;
+}
+.number{
+    color: #4A4A4A;
+    border: 1px solid #4A4A4A;
+    width: 7%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.variant{
+    border: 1px solid #4A4A4A;
+    width: 40%;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+}
+.p_variant{
+    width: 100%;
+    text-indent: 10%;
+}
+.info{
+     border: 1px solid #4A4A4A;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+     font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.price{
+     border: 1px solid #4A4A4A;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    flex-wrap: wrap;
+    font-style: normal;
+}
+.p_number{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+.tr{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 13%;
+}
+.clock_div{
+    width: 20%;
+    height: 65%;
+    border: 1px solid #4A4A4A;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.clock_p{
+    color: #FFFFFF;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    flex-wrap: wrap;
+    font-size: large;
+    font-style: normal;
+}
+#clock {
+  width: 65%;
+  height: 50%;
+  position: relative;  
+  background-image: url(../img/icons/clock.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .hand {
+    width: 5px;
+    position: absolute;
+    left: 49%;
+    bottom: 50%;
+    height: 40%;
+    transform-origin: bottom center;
+    transform: translateX(-50%) rotate(var(--r,0deg));
+    background: white;
+    border-radius: 30px;
+  }
+
+  #minuteHand { 
+    height: 50px;
+    z-index: 2;  
+  }
+
+  #hourHand {
+    height: 40px; 
+    z-index: 1;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background: transparent;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:426px) {
+    .header{
+        height: 25vh;
+    }
+    .img_logo-name{
+        height: 50%;
+        width: 90%;
+    }
+    #canvas_header{
+        height: 40%;
+    }
+    .img_logo-name:nth-child(3){
+        display: none;
+    }
+    .img_logo-name:nth-child(1){
+       width: 45%;
+        
+    }
+    .nav__list{
+        width: 80%;
+    }
+    .nav__login a{
+        display: none;
+    }
+    .home{
+        width: 20%;
+    }
+    #canvas_works{
+        display: none;
+    }
+    .works_flag{
+        top: 60%;
+        left: 10%;
+        width: 20%;
+    }
+    .img_head-1{
+        width: 40%;
+    }
+    .big_photo_text{
+        width: 55%;
+        justify-content: space-around;
+    }
+    .name1_and_description{
+        width: 70%;
+    }
+    .option{
+        width: 45%;
+    }
+    .options{
+        flex-wrap: wrap;
+    }
+    #canvas_works_down{
+        display: block;
+    }
+  
+    
+
+    .photo_small-block{
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-evenly;
+    }
+    .photo{
+        height: 28%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: space-between;
+    }
+    .photo_small{
+        width: 40%;
+        height: 100%;
+    }
+    .name_and_description{
+        width: 50%;
+        height: 50%;
+        /* display: none; */
+    }
+    .name, .description{
+        display: flex;
+        align-items: center;
+        height: 50%;
+        width: 90%;
+    }
+    .photo .options{
+        width: 40%;
+        height: 20%;
+    }
+
+    .price-list{
+        height: 20vh;
+    }
+    .h2-price_div{
+        height: 75%;
+        display: flex;
+        align-items: center;
+    }
+    #canvas_price{
+        height: 25%;
+        display: block;
+    }
+    .table_and_clock{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .table_clock{
+        width: 90%;
+        height: 65%;
+    }
+    .table-price{
+        width: 100%;
+    }
+    .tr{
+      height: 17%;  
+    }
+    .p_info{
+        width: 100%;
+        text-indent: 10%;
+    }
+    .p_number{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .clock_div{
+        width: 89%;
+        height: 25%;
+    }
+    .number{
+        width: 9%;
+    }
+    .price{
+        width: 24%;
+    }
+    #clock{
+      width: 20%;
+      height: 80%; 
+    }
+    .clock_p{
+        width: 80%;
+        text-align: center;
+        font-size: 1.875rem;
+    }
+
+    
+    .footer{
+        height: 35vh;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footer_item{
+        width: 40%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .footer_item:nth-child(3){
+        order: 4;
+        width: 100%;
+    }
+    .footer_item:nth-child(4){
+        order: 3;
+    }
+    .footer_icons{
+        width: 85%;
+        height: 50%;
+    }
+    .block_img{
+        width: 33%;
+    }
+}
+@media screen and (max-width:425px) and (min-width:0px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        order: 1;
+        height: 10vh;
+        justify-content: center;
+        background: #000000;
+    }
+    .img_logo-name{
+        width: 100%;
+    }
+    .heder-img{
+        height: 100%;
+        position: static;
+    }
+    #canvas_header{
+        display: none;
+    }
+    .img_logo-name:nth-child(3){
+        display: none;
+    }
+    .img_logo-name:nth-child(1){
+        display: none;
+    }
+
+
+    .nav{
+        order: 2;
+        background: #826550;
+        height: 8vh;
+    }
+    .nav__item{
+        display: none;
+    }
+    .nav__item:nth-child(3){
+        display: block;
+    }
+    .nav__login{
+        display: none;
+    }
+
+    .home{
+        display: none;
+    }
+    .works{
+        width: 60%;
+    }
+    .block-photo{
+        height: 80vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .img_head-1{
+        width: 100%;
+        height: 60%;
+    }
+    .big_photo_text{
+        height: 40%;
+        width: 100%;
+    }
+    .name1_and_description, .options{
+        width: 85%;
+        align-self: center;
+    }
+    .option{
+        width: 45%;
+    }
+    .name1_and_description{
+        height: 80%;
+    }
+    .name1{
+        height: 40%;
+    }
+    .works_flag{
+        left: 10%;
+        top: 75%;
+        width: 40%;
+    }
+    #canvas_works{
+        display: none;
+    }
+    #canvas_works_down{
+        display: block;
+    }
+
+    .photo_small-block{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 130vh;
+        justify-content: space-evenly;
+    }
+    .photo{
+        width: 100%;
+        height: 30%;
+    }
+    .photo_small{
+        background-size: cover;
+        height: 45%;  
+    }
+
+    main{
+        order: 3;
+    }
+
+
+    
+    .price-list{
+        height: 20vh;
+    }
+    .h2-price{
+        width: 50%;
+        height: 90%;   
+        display: flex;
+    }
+    .h2-price_div{
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .table_clock{
+        width: 100%;
+    }
+    .clock_div{
+        align-self: center;
+        height: 15vh;
+        width: 80%;
+        justify-content: space-around;
+    }
+    #clock{
+        height: 70%;
+        width: 35%;
+    }
+    .clock_p{
+        width: 40%;
+    }
+    #canvas_price{
+        display: block;
+    }
+    .table_and_clock{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+    #canvas_footer{
+        display: block;
+    }
+    .footer{
+        flex-direction: column;
+        order: 4;
+        height: 50vh;
+    }
+    .footer_item:nth-child(2){
+        width: 60%;
+        text-align: center;
+    }
+    .footer_item:nth-child(3){
+        width: 100%;
+        text-align: center;
+    }
+    .footer_item:nth-child(4){
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .footer_border{
+        width: 80%;
+    }
+    .footer_media{
+        display: none;
+    }
+    .footer_icons{
+        height: 90%;
+        width: 100%;
+    }
+    .block_img{
+        width: 33%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+

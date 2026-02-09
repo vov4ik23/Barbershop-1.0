@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/burgermenu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Splash&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="burgerNav">
+		<div class="burgerMenu"><span></span><span></span><span></span></div>
+        <div class="overlay">
+            <ul class="burger-list">
+		      	<li>
+		        	<a href="/Barbershop-1.0/index.html" class="nav__link">ГОЛОВНА</a>
+		        </li>
+		      	<li>
+		        	<a href="/Barbershop-1.0/photo.html" class="nav__link">НАШІ РОБОТИ</a>
+		        </li>
+		      	<li>
+		        	<a href="/Barbershop-1.0/form.html" class="nav__link">ЗАПИСАТИСЯ</a>
+		        </li>
+		      	<li>
+		        	<a href="#footer" class="nav__link">КОНТАКТИ</a>
+		        </li>
+		        <li>
+		        	<a href="https://kompschool.com/" class="nav__link">ШКМ</a>
+        		</li>
+            </ul>
+        </div>
+    </nav>
+<nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="/Barbershop-1.0/index.html" class="nav__link">ГОЛОВНА</a>
+        </li>
+      <li class="nav__item">
+        <a href="/Barbershop-1.0/photo.html" class="nav__link">НАШІ РОБОТИ</a>
+        </li>
+      <li class="nav__item">
+        <a href="/Barbershop-1.0/form.html" class="nav__link">ЗАПИСАТИСЯ</a>
+        </li>
+      <li class="nav__item">
+        <a href="#footer" class="nav__link">КОНТАКТИ</a>
+        </li>
+        <li class="nav__item">
+        <a href="https://kompschool.com/" class="nav__link">ШКМ</a>
+        </li>
+    </ul>
+    <div class="nav__login">
+      <img src="img/icons/login_icon.svg" alt="" class="nav__icon">
+      <a href="" class="nav__link">УВІЙТИ</a>
+    </div>
+
+    </nav>
+    <header class="header">
+        <div class="heder-img">
+            <img src="img/icons/barbershop_word.svg" alt="" class="img_logo-name">
+            <img src="img/icons/barbershop_name.svg" alt="" class="img_logo-name">
+            <img src="img/icons/barbershop_mustach.svg" alt="" class="img_logo-name">
+        </div>
+        <canvas id="headercanvas" width="1400" height="580"></canvas>
+    </header>
+    <form id="booking" class="booking">
+        <div class="booking_button_and_h1">
+            <h1 class="booking_h1">ЗАПИС НА СТРИЖКУ</h1>
+            <button class="home" onclick="window.location.href='/Barbershop-1.0/index.html'">НА ГОЛОВНУ</button>
+        </div>
+        <div class="booking_names_and_contacts">
+            <div class="booking_names">
+                <input class="booking_field booking_field-surname" placeholder="Прізвище" type="text" id="surname" required>
+                <input class="booking_field booking_field-name" placeholder="Ім'я" type="text" id="name" required>
+                <input class="booking_field booking_field-patronymic" placeholder="По-батькові" type="text" id="patronymic" required>
+            </div>
+            <div class="booking_contacts">
+                <input class="booking_field_contact booking_field-phone"placeholder="Контактний телефон" type="tel" id="tel" required>
+                <input class="booking_field_contact booking_field-email" placeholder="Контактний e-mail" type="email" id="email" required>
+                <input class="booking_field_text booking_field-info" placeholder="Дод. інформація для майстра" type="text" id="text" required>
+            </div>
+        </div>
+        <div class="booking_radios_and_checkbox">
+            <h2 class="booking_h2">ВИБЕРІТЬ МОДЕЛЬ БОРОДИ</h2>
+            <div class="booking_radios">
+                <div class="booking_choose">
+                    <input class="booking_radio" type="radio" name="choose" id="c1" value="1" required></input>
+                    <p class="p_variant">ЗСУ</p>
+                    <img src="img/icons/beard-zsu.svg" alt="">
+                </div>
+                <div class="booking_choose">
+                    <input class="booking_radio" type="radio" name="choose" id="c1" value="1" required></input>
+                    <p class="p_variant">лісник</p>
+                    <img src="img/icons/beard-lumber.svg" alt="">
+                </div>
+                <div class="booking_choose">
+                    <input class="booking_radio" type="radio" name="choose" id="c1" value="1" required></input>
+                    <p class="p_variant">філософ</p>
+                    <img src="img/icons/beard-thinker.svg" alt="">
+                </div>
+                <div class="booking_choose">
+                    <input class="booking_radio" type="radio" name="choose" id="c1" value="1" required></input>
+                    <p class="p_variant">художник</p>
+                    <img src="img/icons/beard-painter.svg" alt="">
+                </div>
+                <div class="booking_choose">
+                    <input class="booking_radio" type="radio" name="choose" id="c1" value="1" required></input>
+                    <p class="p_variant">мудрець</p>
+                    <img src="img/icons/beard-sage.svg" alt="">
+                </div>
+            </div>
+            <h2 class="booking_h2">ДОДАТКОВІ ПОСЛУГИ</h2>
+            <div class="booking_checkboxs">
+                <p class="booking_checkbox"><input type="checkbox" id="styleB">Пофарбувати бороду</p>
+                <p class="booking_checkbox"><input type="checkbox" id="styleB">Зачесати бороду</p>
+                <p class="booking_checkbox"><input type="checkbox" id="styleB">Забрати сивину</p>
+                <p class="booking_checkbox"><input type="checkbox" id="styleB">Накрутити вуса</p>
+                <p class="booking_checkbox"><input type="checkbox" id="styleB">Півідрняти скроні</p>
+                <p class="booking_checkbox"><input type="checkbox" id="styleB">Відполірувати лисину</p>
+            </div>
+        </div>
+        <div class="booking_button">
+            <button class="booking_submit" type="submit">ВІДПРАВИТИ ЗАЯВКУ</button>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="email.js"></script>
+<footer class="footer" id="footer">
+    <canvas id="footercanvas" width="1400" height="100"></canvas>
+    <div class="footer_item">
+        <h3 class="h3_title">БАРБЕРШОП БОРОДИНСЬКИЙ</h3>
+        <p class="footer_info">м.Івано-Франківськ, вул. Бельведерська 19/8
+Тел.: +38 (097) 045-50-67</p>
+    </div>
+    <div class="footer_item">
+        <p class="footer_media">
+            Давайте дружити!
+        </p>
+            <div class="footer_icons">
+                <div class="block_img">
+                    <img src="img/icons/vk_icon.svg" alt="" class="footer_img">
+                </div>
+                <div class="block_img">
+                    <img src="img/icons/facebook_icon.svg" alt="" class="footer_img">
+                </div>
+                <div class="block_img">
+                    <img src="img/icons/instagram_icon.svg" alt="" class="footer_img">
+                </div>
+            </div>
+    </div>
+    <div class="footer_item">
+        <p class="footer_creator">ЗВЕРСТАНО:</p>
+        <h3 class="footer_border">ШКМ</h3>
+    </div>
+  </footer>
+
+    <script src="js/email.js"></script>
+    <script src="js/burger.js"></script>
+</body>
+</html>
+
+
+
+
+
+

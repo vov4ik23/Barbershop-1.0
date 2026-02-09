@@ -1,0 +1,624 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    justify-content: center;
+    align-items: center;    
+    font-size: 3.125rem;
+}
+p, h2, h3{
+    font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+input{
+    margin: 0;
+    font-size: 1.5rem;
+    border: 1px solid #E5DDD5;
+    font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+button{
+    margin: 0;
+}
+input[type=radio], input[type=checkbox]{
+    width: 4vw;
+    background: #826550;
+    height: 4vh;
+}
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  background: black;
+  width: 100%;
+  height: 10vh;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+}
+.nav__list{
+  display: flex;
+  width: 60%;
+  height: 98%;
+  justify-content: space-between;
+  list-style: none;
+  border: none;
+}
+.nav__item{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.nav__link{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.nav__item:nth-child(3){
+    border-bottom: 3px solid #d38c5a;
+}
+.nav__login{
+  width: 5%;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.nav__login a{
+    width: 60%;
+    height: 100%;
+}
+.nav__icon{
+    width: 25%;
+}
+.header{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.heder-img{
+    width: 25%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    position: absolute;
+}
+.img_logo-name{
+    width: 100%;
+    height: 10vh;
+}
+.img_logo-name:nth-child(2){
+    width: 100%;
+}
+.img_logo-name:nth-child(1){
+    width: 50%;
+}
+#headercanvas{
+    width: 100%;
+    background-image: url(../img/photos/back-desktop.svg);
+    background-size: cover;
+}
+
+
+.h2_person-review{
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 50%;
+    height: 30%;
+}
+.footer{
+    background: #292929;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.footer_item{
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.footer_item p{
+    line-height: 27px;
+}
+.h3_title{
+    font-weight: 700;
+}
+.footer_item:nth-child(3){
+    align-items: center;
+    justify-content: center;
+}
+.footer_item:nth-child(4){
+    align-items: center;
+    justify-content: center;
+}
+.footer_icons{
+    display: flex;
+    height: 30%;
+    width: 50%;
+}
+.footer_img{
+    width: 3vw;
+    height: 2vh;
+}
+.block_img{
+    border: 1px solid #4a4a4a;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile_info{
+    display: none;
+}
+.footer_media{
+    height: 25%;
+}
+.footer_creator{
+    height: 25%;
+}
+.footer_border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53%;
+    height: 30%;
+    border: 1px solid #4a4a4a;
+}
+.booking{
+    background: #F8F5F2;
+    display: flex;
+    justify-content: space-around;
+}
+.booking_button_and_h1{
+    width: 100%;
+    height: 20vh;
+    left: 7vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-content: space-evenly;
+    align-items: center;
+    background: #F8F5F2;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.booking_h1{
+    font-size: 4.5rem;
+    width: 50%;
+    height: 30%;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.home{
+    width: 13%;
+    height: 40%;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 27px;
+    background: #F8F5F2;
+    border: 1px solid grey;
+}
+.booking_names{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.booking_field{
+    width: 30%;
+    height: 10vh;
+    color: black;
+}
+.booking_field::placeholder{
+    color: black;
+    text-indent: 10%;
+    /* display: flex;
+    justify-content: center; */
+}
+.booking_field_contact::placeholder{
+    color: black;
+    display: flex;
+    text-indent: 4%;
+    justify-content: start;
+}
+.booking_contacts{
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.booking_field_contact{
+    width: 47.5%;
+    height: 10vh;
+}
+.booking_field_text::placeholder{
+    color: black;
+    text-indent: 5%;
+}
+.booking_field_text{
+    width: 100%;
+    height: 31vh;
+}
+.inputs_form{
+    width: 100%;
+    height: 100%;
+}
+.booking_names_and_contacts{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.booking_radios_and_checkbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.booking_button{
+    width: 100%;
+    height: 20vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking_h2{
+    font-size: 4.5rem;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 100%;
+}
+.booking_radios{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: x-large;
+    height: 35vh;
+}
+.p_variant{
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking_choose{
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.booking_choose img{
+    width: 5vw;
+}
+.booking_radios input{
+    height: 7vh;
+}
+.booking_checkboxs{
+    width: 90%;
+    height: 20vh;
+    flex-wrap: wrap;
+    display: flex;    
+    justify-content: center;
+    align-content: space-evenly;
+    font-weight: 400;
+    font-size: 1.875rem;
+}
+.booking_checkbox{
+    display: flex;
+    width: 30%;
+    height: 50%;
+    align-items: center;
+    font-size: x-large;
+}
+.booking_submit{
+    width: 80%;
+    margin: 0 auto;
+    background: #826550;
+    border: 1px solid #826550;
+    height: 10vh;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-style: normal;
+}
+.img_logo-name{
+    width: 70%;
+}
+.img_logo-name:nth-child(3){
+    width: 10vw;
+}
+#footercanvas{
+    width: 100vw;
+    height: 5vh;
+    background: #292929;
+    display: none;
+}
+@media screen and (max-width:768px) and (min-width:426px){
+    .footer_item:nth-child(3){
+        order: 4;
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px){
+    .nav{
+        height: 11vh;
+    }
+    .nav__list{
+        width: 74%;
+        height: 95%;
+    }
+    .nav__item{
+        width: 20%;
+    }
+    .nav__login a{
+        display: none;
+    }
+    .nav__icon{
+        width: 40%;
+    }
+    .header{
+        height: 25vh;
+    }
+    .heder-img{
+        width: 40%;
+        align-self: start;
+        justify-content: center;
+    }
+    .img_logo-name{
+        height: 40%;
+    }
+    .img_logo-name:nth-child(3){
+        display: none;
+    }
+    .home{
+        width: 22%;
+    }
+    .booking_names{
+        width: 80%;
+        margin: 0 auto;
+        flex-wrap: nowrap;
+    }
+    .booking_names_and_contacts{
+        height: 82vh;
+    }
+    .booking_field{
+        height: 10vh;
+        width: 33%;
+        margin: 0;
+    }
+    .booking_contacts{
+        width: 80%;
+        height: 65vh;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .booking_field_contact{
+        width: 100%;
+        margin: 0;
+        height: 10vh;
+    }
+    .booking_h2{
+        height: 12vh;
+    }
+    .booking_choose{
+        width: 15%;
+    }
+    .booking_checkbox{
+        width: 45%;
+        height: 33%;
+    }
+    .booking_radios img{
+        width: 50%;
+    }
+    .booking_checkboxs{
+        height: 35vh;
+    }
+    input[type=checkbox]{
+        height: 10vh;
+        border: 1ps solid red;
+    }
+    .footer{
+        height: 40vh;
+        flex-wrap: wrap;
+    }
+    .footer_item{
+        width: 50%;
+        height: 50%;
+        align-items: center;
+    }
+    .h3_title{
+        font-weight: 700;
+        width: 70%;
+        height: 4vh;
+        display: flex;
+        align-items: flex-end;
+    }
+    .footer_info{
+        width: 70%;
+    }
+    .footer_border{
+        font-weight: 700;
+        width: 20vh;
+        height: 6vh;
+    }
+    .footer_media{
+        display: none;
+    }
+    .footer_icons{
+        width: 80%;
+        height: 50%;   
+    }
+    .block_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_img{
+        width: 4vh;
+        height: 4vh;
+    }
+}
+@media screen and (max-width:425px) {
+    #footercanvas{
+    display: block;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    } 
+    .header{
+        height: 15vh;
+        order: 1;
+        background: #000;
+        justify-content: center;
+    } 
+    .img_logo-name{
+        width: 100%;
+    }
+    .img_logo-name:nth-child(1){
+        display: none;
+    }
+    .img_logo-name.nav__item:nth-child(2){
+        width: 100%;
+        height: 100%;
+    }
+    .nav{
+        height: 7vh;
+        order: 3;
+        background: #6a4d38;
+    }
+    .nav__list{
+        justify-content: center;
+    }
+    .nav__item{
+        font-weight: 700;
+    }
+    .nav__item:nth-child(1){
+        display: none;
+    }
+     .nav__item:nth-child(2){
+        display: none;
+    }
+     .nav__item:nth-child(4){
+        display: none;
+    }
+     .nav__item:nth-child(5){
+        display: none;
+    }
+    .nav__login{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .booking_h1{
+        text-align: center;
+        width: 95%;
+    }
+    .booking_names_and_contacts{
+        height: 105vh;
+    }
+    .booking_names{
+        height: 37vh;
+        flex-direction: column;
+    }
+    .booking_contacts{
+        height: 60vh;
+    }
+    .booking_field{
+        width: 100%;
+    }
+    .booking_radios{
+        width: 90%;
+        height: 60vh;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .booking_choose{
+        width: 33%;
+    }
+    input[type=radio]{
+       width: 25vw;
+    }
+    input[type=checkbox]{
+        width: 10vw;
+    }
+    .booking_field::placeholder{
+        font-size: 1.rem;
+    }
+    .booking_checkbox{
+        width: 100%;
+        height: 15%;
+    }
+    .booking_checkboxs{
+        height: 40vh;
+    }
+    form{
+        order: 3;
+    }
+    footer{
+        order: 4;
+        justify-content: space-between;
+    }
+    .h3_title{
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+    }
+    .footer_item{
+        width: 100%;
+        height: 26%;
+    }
+    .footer_info{
+        width: 70%;
+        text-align: center;
+    }
+    .footer_icons{  
+        height: 90%;
+        width: 100%;
+    }
+    #headercanvas{
+        display: none;  
+    }
+}
+
