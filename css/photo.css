@@ -897,7 +897,7 @@ p, h1, h2, h3{
         height: 100%;
     }
 }
-
+#clock {
   .hand {
     width: 3px;
     position: absolute;
@@ -915,16 +915,4 @@ p, h1, h2, h3{
     height: 3vh; 
     z-index: 1;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
