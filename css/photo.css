@@ -839,9 +839,10 @@ p, h1, h2, h3{
     }
     .clock_div{
         align-self: center;
-        height: 15vh;
+        height: 25vh;
         width: 80%;
         justify-content: space-around;
+		margin-bottom: 20px;
     }
     #clock{
         height: 70%;
@@ -916,4 +917,5 @@ p, h1, h2, h3{
     z-index: 1;
   }
 }
+
 
