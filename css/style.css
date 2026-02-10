@@ -245,6 +245,85 @@ p, h1, h2, h3{
     background: #292929;
     display: none;
 }
+footer{
+    background: #292929;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.footer_item{
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.footer_item p{
+    line-height: 27px;
+}
+.h3_title{
+    font-weight: 700;
+    font-family: "PT Sans Narrow", sans-serif;
+	    font-weight: 400;
+	    font-style: normal;
+}
+.footer_item:nth-child(3){
+    align-items: center;
+    justify-content: center;
+}   
+.footer_item:nth-child(4){
+    align-items: center;
+    justify-content: center;
+}
+.footer_icons{
+    display: flex;
+    height: 30%;
+    width: 50%;
+}
+.footer_img{
+    width: 3vw;
+    height: 2vh;
+}
+.block_img{
+    border: 1px solid #4a4a4a;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile_info{
+    display: none;
+}
+.footer_media{
+    height: 25%;
+    font-family: "PT Sans Narrow", sans-serif;
+	    font-weight: 400;
+	    font-style: normal;
+}
+.footer_creator{
+    height: 25%;
+    font-family: "PT Sans Narrow", sans-serif;
+	    font-weight: 400;
+	    font-style: normal;
+}
+.footer_border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 53%;
+    height: 30%;
+    border: 1px solid #4a4a4a;
+    font-family: "PT Sans Narrow", sans-serif;
+	    font-weight: 400;
+	    font-style: normal;
+}
+
 
 /* Тут новости */
 .section_news{
@@ -575,6 +654,9 @@ p, h1, h2, h3{
     }
     .footer_info{
         width: 70%;
+        font-family: "PT Sans Narrow", sans-serif;
+	    font-weight: 400;
+	    font-style: normal;
     }
     .footer_border{
         font-weight: 700;
@@ -698,6 +780,7 @@ p, h1, h2, h3{
     }
     #footercanvas{
     display: block;
+    width: 99%;
     }
     
     .section_quality_block{
@@ -829,7 +912,7 @@ p, h1, h2, h3{
     }
     .footer_item{
         width: 100%;
-        height: 80%;
+        height: 30%;
         text-align: center;
     }
     .footer_item:nth-child(3){
@@ -843,7 +926,12 @@ p, h1, h2, h3{
     }
     .footer_icons{
         width: 100%;
-        height: 100%;
+        height: 80%;
+    }
+    p, h1, h2, h3{
+        font-family: "PT Sans Narrow", sans-serif;
+	    font-weight: 400;
+	    font-style: normal;
     }
     
 }
