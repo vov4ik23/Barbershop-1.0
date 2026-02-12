@@ -245,7 +245,7 @@ p, h1, h2, h3{
     background: #292929;
     display: none;
 }
-footer{
+.footer{
     background: #292929;
     display: flex;
     justify-content: space-evenly;
@@ -268,14 +268,11 @@ footer{
 }
 .h3_title{
     font-weight: 700;
-    font-family: "PT Sans Narrow", sans-serif;
-	    font-weight: 400;
-	    font-style: normal;
 }
 .footer_item:nth-child(3){
     align-items: center;
     justify-content: center;
-}   
+}
 .footer_item:nth-child(4){
     align-items: center;
     justify-content: center;
@@ -302,15 +299,9 @@ footer{
 }
 .footer_media{
     height: 25%;
-    font-family: "PT Sans Narrow", sans-serif;
-	    font-weight: 400;
-	    font-style: normal;
 }
 .footer_creator{
     height: 25%;
-    font-family: "PT Sans Narrow", sans-serif;
-	    font-weight: 400;
-	    font-style: normal;
 }
 .footer_border{
     display: flex;
@@ -319,12 +310,7 @@ footer{
     width: 53%;
     height: 30%;
     border: 1px solid #4a4a4a;
-    font-family: "PT Sans Narrow", sans-serif;
-	    font-weight: 400;
-	    font-style: normal;
 }
-
-
 /* Тут новости */
 .section_news{
     width: 100%;
@@ -935,6 +921,7 @@ footer{
     }
     
 }
+
 
 
 
