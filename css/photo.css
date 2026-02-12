@@ -337,6 +337,7 @@ p, h1, h2, h3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+	margin-bottom: 50px;
 }
 .description{
     background: #F8F5F2;
@@ -917,5 +918,6 @@ p, h1, h2, h3{
     z-index: 1;
   }
 }
+
 
 
